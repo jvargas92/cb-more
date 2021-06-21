@@ -17,9 +17,11 @@ module.exports = {
             }
         },
         `gatsby-plugin-offline`,
+        `gatsby-plugin-gatsby-cloud`,
         `gatsby-plugin-glamor`,
-        //    `gatsby-plugin-sharp`,
-        //    `gatsby-transformer-sharp`,
+        `gatsby-plugin-image`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
         {
             resolve: `gatsby-plugin-typography`,
             options: {
