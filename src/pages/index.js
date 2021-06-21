@@ -9,7 +9,6 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Caldwell Bagels &amp; more">
       <p>I'm making this by following the Gatsby Tutorial.</p>
-
       <StaticImage alt="iMac" src="../images/bigstock-Imac--113372039.jpg" />
     </Layout>
   )
