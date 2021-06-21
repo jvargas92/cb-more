@@ -10,11 +10,11 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-source-filesystem`,
+            resolve: "gatsby-source-filesystem",
             options: {
-                name: `src`,
-                path: `${__dirname}/src/`,
-            },
+                name: `blog`,
+                path: `${__dirname}/blog`,
+            }
         },
         `gatsby-plugin-offline`,
         `gatsby-plugin-glamor`,
